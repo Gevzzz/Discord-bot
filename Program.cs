@@ -37,7 +37,7 @@ namespace Bot
 
             
 
-            await _client.LoginAsync(TokenType.Bot, "Nzc5NjgyMDQ5ODY1ODA5OTUx.X7kFfg.oIKbwQTDXb3dBAv-JEqkh5TbC2Q");
+            await _client.LoginAsync(TokenType.Bot, "sike");
             await _client.StartAsync();
 
             _handler = new CommandHandler(_client);
